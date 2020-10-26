@@ -2,22 +2,7 @@ import java.util.Scanner;
 
 class BuscaBinariaRecursiva {
 	public static void main(String[] args) {
-		Scanner entrada = new Scanner(System.in);
-
-		String[] numeros = entrada.nextLine().split(" ");
-
-		String n = entrada.nextLine();
-		int numeroProcurado = Integer.parseInt(n);
-
-		int inicio = 0;
-
-		int fim = numeros.length - 1;
-		
-		int[] numerosInteiros = new int[numeros.length];
-        for (int i = 0; i < numeros.length; i++)
-            numerosInteiros[i] = Integer.valueOf(numeros[i]);
-
-		BuscaBinariaRecursiva.indexOf(numerosInteiros, numeroProcurado, inicio, fim);
+		CInteiros, numeroProcurado, inicio, fim);
 	}
 
 	public static int indexOf(int[] seq, int n, int inicio, int fim) {
